@@ -6,7 +6,7 @@ html,body{height:100%;margin:0;overflow:hidden}
 @font-face{
   font-family:'Dejavu-Sans';
   font-style:normal;
-  src:url('./assets/fonts/dejavu-sans/files/dejavu-sans-latin-400-normal.woff2') format('woff2');
+  src:url('../assets/fonts/dejavu-sans/files/dejavu-sans-latin-400-normal.woff2') format('woff2');
   /* add other formats if needed */
 }
 
@@ -85,7 +85,7 @@ footer{
   align-items:center;
   justify-content:center;
   padding:20px;
-  background-image:linear-gradient(rgba(0,8,51,.8),rgba(0,8,51,.9)),url(./assets/img/background.jpg);
+  background-image:linear-gradient(rgba(0,8,51,.8),rgba(0,8,51,.9)),url(../assets/img/background.jpg);
   background-position:center;
   background-size:cover;
   background-attachment:fixed
