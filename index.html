@@ -1,38 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Github Profile Finder</title>
-    <link rel="stylesheet" href="./styles/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Github Profile Finder</title>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="./styles/style.css" />
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+    rel="stylesheet"
+  />
+
+  <style>
+    footer div p a {
+      text-decoration: none;
+      color: rgb(55, 50, 119);
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <div>
-            <img src="./assets/img/github-mark.svg" alt="" srcset="">
-        </div>
-        <h3>
-            profile finder
-        </h3>
-    </header>
+  <!-- Header -->
+  <header>
+    <nav class="nav">
+      <img src="./assets/img/github-mark.svg" alt="GitHub Logo" />
+      <h3>profile finder</h3>
+    </nav>
+  </header>
 
-    <main>
-        <div class="container">
-            <div>
-                <h4>Who are you looking for?</h4>
-            </div>
-    
-            <div class="searchBox">
-                <form action="submit" class="search-bar" action="">
-                    <i class="bi bi-at at"></i>
-                    <input autocomplete="off" type="text"id="searchInput" placeholder="username">
-                    <button onclick="searchGithub()"> <i class="bi bi-arrow-right"></i> </button>
-                </form>
-            </div>
-        </div>
-    </main>
+  <!-- Main -->
+  <main>
+    <section class="container div1">
+      <h4>Who are you looking for?</h4>
 
-    <script src="app.js"></script>
+      <!-- Search Box -->
+      <div class="searchBox div1">
+        <form class="search-bar" onsubmit="searchGithub(event)">
+          <i class="bi bi-at at"></i>
+          <input
+            type="text"
+            id="searchInput"
+            placeholder="username"
+            autocomplete="off"
+          />
+          <button type="submit">
+            <i class="bi bi-arrow-right"></i>
+          </button>
+        </form>
+      </div>
+
+      <!-- Search Result -->
+      <div class="details" id="result"></div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div>
+      <p class="copyright">
+        Made with 𖹭 by
+        <a href="http://github.com/maxineathos">Maxine Athos</a>.
+      </p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="app.js"></script>
 </body>
 </html>
