@@ -39,7 +39,7 @@ Just open `index.html` in any modern browser.
 ---
 
 ## 📷 Screenshot
-(Add a screenshot of your app here, e.g. `assets/img/screenshot.png`)
+[Live page](https://i.imgur.com/oEXMoZt.png)
 
 ---
 
