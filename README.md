@@ -30,7 +30,7 @@ Built with **HTML, CSS, JavaScript, Bootstrap Icons**, and the **GitHub REST API
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/github-profile-finder.git
+git clone https://github.com/maxineathos/github-profile-finder.git
 ```
 
 ### 2. Open in your browser
