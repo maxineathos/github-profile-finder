@@ -39,7 +39,7 @@ Just open `index.html` in any modern browser.
 ---
 
 ## 📷 Screenshot
-[Live page](https://i.imgur.com/oEXMoZt.png)
+![Preview](https://i.imgur.com/oEXMoZt.png "Live Page")
 
 ---
 
